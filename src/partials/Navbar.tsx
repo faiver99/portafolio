@@ -37,8 +37,7 @@ const Navbar = () => (
           Blogs
         </NavMenuItem>
         <NavMenuItem href="https://github.com/faiver99">GitHub</NavMenuItem>
-        <NavMenuItem href="https://twitter.com/bummloz" target="_blank">
-          Twitter
+        <NavMenuItem href="https://twitter.com/vargas_faiver" target="_blank">Twitter
         </NavMenuItem>
       </NavMenu>
     </NavbarTwoColumns>

@@ -10,19 +10,20 @@ const ProjectList = () => (
   <Section
     title={
       <>
-        Recent <GradientText>Projects</GradientText>
+        <GradientText>Projectos</GradientText>
       </>
     }
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Project 1"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        name="Proyecto 1"
+        description="Se realizo un pagina web de una tienda de mascotas
+        en la cual los clientes pueden encontrar donde y en que ciudad nos ubicamos,
+        en esta podemos encontrar también un apartado para hace comprasd de manera online
+        "
         link="/"
         img={{
-          src: '/assets/images/project-web-design.png',
+          src: '/assets/images/Perro.png',
           alt: 'Project Web Design',
         }}
         category={
