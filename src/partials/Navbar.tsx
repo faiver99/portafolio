@@ -19,7 +19,7 @@ const Navbar = () => (
               fill="none"
               strokeWidth="1.5"
               strokeLinecap="round"
-              strokeLinejoin="round"
+              strokeLinejoin="round8"
             >
               <path d="M0 0h24v24H0z" stroke="none"></path>
               <rect x="3" y="12" width="6" height="8" rx="1"></rect>
@@ -33,9 +33,7 @@ const Navbar = () => (
       </a>
 
       <NavMenu>
-        <NavMenuItem href="" target="_blank">
-          Blogs
-        </NavMenuItem>
+        <NavMenuItem href="" target="_blank">Blogs</NavMenuItem>
         <NavMenuItem href="https://github.com/faiver99">GitHub</NavMenuItem>
         <NavMenuItem href="https://twitter.com/vargas_faiver" target="_blank">Twitter
         </NavMenuItem>

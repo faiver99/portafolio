@@ -27,7 +27,7 @@ const Hero = () => (
           src="/assets/images/avatar.svg"
           alt="Avatar image"
           loading="lazy"
-        />  
+        />
       }
       socialButtons={
         <>

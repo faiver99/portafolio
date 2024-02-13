@@ -41,7 +41,7 @@ const ProjectList = () => (
         bibendum. Nunc non posuere consectetur, justo erat semper enim, non
         hendrerit dui odio id enim."
         link="/"
-        img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
+        img={{'/assets/images/project-Fire.png' }}
         category={
           <>
             <Tags color={ColorTags.VIOLET}>Next.js</Tags>
