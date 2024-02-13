@@ -23,8 +23,8 @@ const ProjectList = () => (
         "
         link="/"
         img={{
-          src: '/assets/images/Perro.png',
-          alt: 'Project Web Design',
+          src: '/assets/images/projects/project_1.jpg',
+          alt: 'Project Web Design',          
         }}
         category={
           <>
