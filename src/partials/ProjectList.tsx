@@ -19,12 +19,12 @@ const ProjectList = () => (
         name="Proyecto 1"
         description="Se realizo un pagina web de una tienda de mascotas
         en la cual los clientes pueden encontrar donde y en que ciudad nos ubicamos,
-        en esta podemos encontrar también un apartado para hace comprasd de manera online
-        "
+        en esta podemos encontrar también un apartado para hace compras de manera online,
+        La página se encuentra optimizada para dispositivos móviles."
         link="/"
         img={{
-          src: '/assets/images/projects/project_1.jpg',
-          alt: 'Project Web Design',          
+          src: '/assets/images/',
+          alt: 'Project Web Design',
         }}
         category={
           <>
@@ -41,7 +41,7 @@ const ProjectList = () => (
         bibendum. Nunc non posuere consectetur, justo erat semper enim, non
         hendrerit dui odio id enim."
         link="/"
-        img={{'/assets/images/project-Fire.png' }}
+        img={{ src: '/assets/images/project-Fire.png' }}
         category={
           <>
             <Tags color={ColorTags.VIOLET}>Next.js</Tags>
